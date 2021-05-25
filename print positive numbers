@@ -1,5 +1,5 @@
 def is_positive(val):
     if val >= 0:
        print(val)
-inp_ints = [12, -7, 5, 64, -14]
-list(filter(is_positive, inp_ints))
+list1 = [12, -7, 5, 64, -14]
+list(filter(is_positive, list1))
