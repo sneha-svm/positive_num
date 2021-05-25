@@ -1,0 +1,5 @@
+def is_positive(val):
+    if val >= 0:
+        print(val)
+list2 = [12, 14, -95, 3]
+list(filter(is_positive, list2))
